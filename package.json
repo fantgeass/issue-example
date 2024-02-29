@@ -1,0 +1,19 @@
+{
+  "name": "issue-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node build.mjs",
+    "deploy": "node build.mjs --deploy",
+    "watch": "node build.mjs --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hashgraph/sdk": "2.41.0"
+  },
+  "devDependencies": {
+    "esbuild": "0.20.1"
+  }
+}
